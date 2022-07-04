@@ -1,4 +1,6 @@
 # Quantum Mechanical Keyboard Firmware
+This is a fork of the QMK firmware. I have added better support for my redox wireless, where the receiver arduino will boot up, but the bluetooth module has not yet, leading to the two being out of sync. This fork solves that issue by simply delaying before scanning for matrix.
+
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
